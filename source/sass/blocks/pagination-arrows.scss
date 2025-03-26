@@ -1,0 +1,30 @@
+.pagination-arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.pagination-arrows__prew {
+  display: block;
+  width: 17px;
+  height: 37px;
+  background-image: url("../img/icons/pagination-left-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pagination-arrows__next {
+  display: block;
+  width: 17px;
+  height: 37px;
+  background-image: url("../img/icons/pagination-right-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

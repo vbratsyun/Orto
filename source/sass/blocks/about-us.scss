@@ -1,0 +1,27 @@
+.about-us__description {
+  text-align: center;
+  color: $title-text;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16.5px;
+    max-width: 88%;
+    margin: 0 auto 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1030px;
+  }
+}
+
+.about-us__advantages-list {
+  margin-bottom: 30px;
+}
+
+.about-us__container {
+  padding: 43px 20px 22px;
+  background-color: $grey-background;
+
+  @media (min-width: $tablet-width) {
+    padding: 43px 40px 32px;
+  }
+}

@@ -1,0 +1,62 @@
+.team-list {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-list__item {
+  display: none;
+  line-height: 1.6;
+  text-align: center;
+  flex-direction: column;
+  gap: 24px;
+
+  &--current {
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.team-list__container {
+  width: 240px;
+  height: 240px;
+  max-width: 500px;
+  margin: 0 auto;
+
+  &--director {
+    background: url("../img/index/photo-director.svg") no-repeat;
+    background-size: cover;
+  }
+
+  &--consultant {
+    background: url("../img/index/photo-consultant.svg") no-repeat;
+    background-size: cover;
+  }
+
+  &--technologist {
+    background: url("../img/index/photo-technologist.svg") no-repeat;
+    background-size: cover;
+  }
+}
+
+.team-list__name {
+  font-size: 17px;
+  color: $green;
+
+  @media (min-width: $tablet-width) {
+    font-size: 19px;
+  }
+}
+
+.team-list__position {
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+  }
+}
