@@ -36,7 +36,7 @@
             <p class="page-header-contacts-list__title">Адрес центра:</p>
             <address class="page-header-contacts-list__address">
               <p class="page-header-contacts-list__text">
-                Санкт-Петербург, ул. Шпалерная д. 24А, Литера А, помещение 1-Н
+                Санкт-Петербург, <span class="br br--desktop"></span> ул. Шпалерная д. 24А, Литера А, помещение 1-Н
               </p>
             </address>
           </li>
@@ -50,9 +50,15 @@
           </li>
           <li class="page-header-contacts-list__item">
             <p class="page-header-contacts-list__title">Режим работы:</p>
-            <ul class="page-header-contacts-list__schedule-list schedule-list list">
-              <li class="schedule-list__item">пн—пт: с 9:00 до 16:30,</li>
-              <li class="schedule-list__item">сб—вс: выходной</li>
+            <ul
+              class="page-header-contacts-list__schedule-list schedule-list list"
+            >
+              <li class="schedule-list__item">
+                пн&nbsp;&mdash;&nbsp;пт: 9:00-16:30,
+              </li>
+              <li class="schedule-list__item">
+                сб&nbsp;&mdash;&nbsp;вс: выходной
+              </li>
             </ul>
           </li>
           <li class="page-header-contacts-list__item">
@@ -65,7 +71,7 @@
           </li>
         </ul>
       </div>
-      <nav class="page-header__nav nav">
+      <nav class="page-header__nav nav nav--closed nav--nojs">
         <button class="nav__toggle button" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -91,7 +97,8 @@
             </li>
             <li class="nav-list__item">
               <a class="nav-list__link link" href="#articles"
-                >Заказ ТСР с использованием Сертификата</a
+                >Заказ ТСР <span class="br br--mobile"></span> с использованием
+                Сертификата</a
               >
             </li>
           </ul>
@@ -102,46 +109,16 @@
           >
             <svg
               class="search-form__icon"
-              aria-hidden="true"
-              focusable="false"
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
               xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="16"
-              height="16"
-              x="0"
-              y="0"
-              viewBox="0 0 1707 1707"
-              style="enable-background: new 0 0 512 512"
-              xml:space="preserve"
-              fill-rule="evenodd"
+              focusable="false"
             >
-              <g>
-                <path
-                  d="M623 1250c-166 0-323-65-440-183C65 949 0 793 0 627c0-167 65-323 183-441C300 68 457 4 623 4s323 64 441 182c117 118 182 274 182 441 0 166-65 322-182 440-118 118-275 183-441 183zm0-1186c-150 0-292 58-398 164C119 335 60 476 60 627c0 150 59 291 165 398 106 106 248 165 398 165s292-59 398-165c107-107 165-248 165-398 0-151-58-292-165-399C915 122 773 64 623 64z"
-                  fill="#000000"
-                  opacity="1"
-                  data-original="#000000"
-                ></path>
-                <path
-                  d="M1198 1309c-8 0-16-3-22-9l-195-196c-12-12-12-31 0-42 11-12 30-12 42 0l196 195c12 12 12 31 0 43-6 6-14 9-21 9zm84-85c-8 0-15-3-21-8l-197-197c-11-12-11-31 0-42 12-12 31-12 43 0l196 196c12 12 12 31 0 43-6 5-13 8-21 8z"
-                  fill="#000000"
-                  opacity="1"
-                  data-original="#000000"
-                ></path>
-                <path
-                  d="M1577 1703c-34 0-67-13-91-38l-282-281c-24-24-37-57-37-91 0-35 13-68 37-92 25-24 57-38 92-38s67 14 92 38l281 281c50 51 50 133 0 183-25 25-57 38-92 38zm-281-480c-19 0-36 8-49 21s-20 30-20 49c0 18 7 36 20 49l281 281c13 13 31 20 49 20 19 0 36-7 49-20s21-31 21-49c0-19-8-36-21-49l-281-281c-13-14-30-21-49-21zM623 1110c-129 0-251-50-342-141-91-92-142-213-142-342 0-130 51-251 142-343 91-91 213-141 342-141s251 50 342 141c189 189 189 496 0 685-91 91-213 141-342 141zm0-907c-113 0-220 44-300 124S199 513 199 627c0 113 44 219 124 299s187 124 300 124 220-44 300-124c165-165 165-434 0-599-80-80-187-124-300-124z"
-                  fill="#000000"
-                  opacity="1"
-                  data-original="#000000"
-                ></path>
-                <path
-                  d="M399 880c-7 0-15-3-21-9-135-135-135-354 0-489 12-12 31-12 43 0 11 11 11 30 0 42-112 112-112 293 0 405 11 12 11 31 0 42-6 6-14 9-22 9z"
-                  fill="#000000"
-                  opacity="1"
-                  data-original="#000000"
-                ></path>
-              </g>
+              <path
+                d="M17.6932 16.0568L14.2159 12.5795C15.2386 11.25 15.75 9.61364 15.75 7.875C15.75 3.47727 12.2727 0 7.875 0C3.47727 0 0 3.47727 0 7.875C0 12.2727 3.47727 15.75 7.875 15.75C9.61364 15.75 11.25 15.1364 12.5795 14.2159L16.0568 17.6932C16.2614 17.8977 16.4659 18 16.875 18C17.4886 18 18 17.4886 18 16.875C18 16.6705 17.8977 16.3636 17.6932 16.0568ZM2.25 7.875C2.25 4.80682 4.80682 2.25 7.875 2.25C10.9432 2.25 13.5 4.80682 13.5 7.875C13.5 10.9432 10.9432 13.5 7.875 13.5C4.80682 13.5 2.25 10.9432 2.25 7.875Z"
+                fill="#9e9e9e"
+              ></path>
             </svg>
             <label class="visually-hidden" for="search">Поисковое поле</label>
             <input
@@ -153,6 +130,37 @@
             />
             <button class="search-form__button" type="submit">Найти</button>
           </form>
+          <a
+            class="page-header__social-link link"
+            href="https://vk.com/svobodaorto"
+            target="_blank"
+          >
+            <span class="visually-hidden">Мы в Вконтакте</span>
+            <svg
+              class="page-header__social-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="20"
+              height="20"
+              x="0"
+              y="0"
+              viewBox="0 0 304.36 304.36"
+              style="enable-background: new 0 0 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  d="M261.945 175.576c10.096 9.857 20.752 19.131 29.807 29.982 4 4.822 7.787 9.798 10.684 15.394 4.105 7.955.387 16.709-6.746 17.184l-44.34-.02c-11.436.949-20.559-3.655-28.23-11.474-6.139-6.253-11.824-12.908-17.727-19.372-2.42-2.642-4.953-5.128-7.979-7.093-6.053-3.929-11.307-2.726-14.766 3.587-3.523 6.421-4.322 13.531-4.668 20.687-.475 10.441-3.631 13.186-14.119 13.664-22.414 1.057-43.686-2.334-63.447-13.641-17.422-9.968-30.932-24.04-42.691-39.971-22.895-31.021-40.428-65.108-56.186-100.15C-2.01 76.458.584 72.22 9.295 72.07c14.465-.281 28.928-.261 43.41-.02 5.879.086 9.771 3.458 12.041 9.012 7.826 19.243 17.402 37.551 29.422 54.521 3.201 4.518 6.465 9.036 11.113 12.216 5.142 3.521 9.057 2.354 11.476-3.374 1.535-3.632 2.207-7.544 2.553-11.434 1.146-13.383 1.297-26.743-.713-40.079-1.234-8.323-5.922-13.711-14.227-15.286-4.238-.803-3.607-2.38-1.555-4.799 3.564-4.172 6.916-6.769 13.598-6.769h50.111c7.889 1.557 9.641 5.101 10.721 13.039l.043 55.663c-.086 3.073 1.535 12.192 7.07 14.226 4.43 1.448 7.35-2.096 10.008-4.905 11.998-12.734 20.561-27.783 28.211-43.366 3.395-6.852 6.314-13.968 9.143-21.078 2.096-5.276 5.385-7.872 11.328-7.757l48.229.043c1.43 0 2.877.021 4.262.258 8.127 1.385 10.354 4.881 7.844 12.817-3.955 12.451-11.65 22.827-19.174 33.251-8.043 11.129-16.645 21.877-24.621 33.072-7.328 10.223-6.746 15.376 2.357 24.255zm0 0"
+                  style="fill-rule: evenodd; clip-rule: evenodd"
+                  fill="#9e9e9e"
+                  opacity="1"
+                  data-original="#9e9e9e"
+                  class=""
+                ></path>
+              </g>
+            </svg>
+          </a>
         </div>
       </nav>
     </header>
@@ -162,584 +170,721 @@
         Добро пожаловать на сайт ООО "Свобода-Орто" - центра ортопедии и
         протезирования в Санкт-Петербурге.
       </h1>
-      <section class="intro">
+      <section class="page-main__intro intro">
         <h2 class="visually-hidden">Протезы "Свобода-Орто"</h2>
         <p class="intro__slogan">
           "Свобода-Орто"&nbsp;&mdash;&nbsp;производит протезы, которые меняют
           жизнь к лучшему!
         </p>
         <p class="intro__text">
-          Мы не повышаем цены на материалы и комплектующие, которые у нас на
-          складе.
+          Мы не повышаем цены на материалы, а также комплектующие, находящиеся у нас на складе!
         </p>
         <a class="intro__link link" href="#services">Услуги и цены</a>
       </section>
-      <section class="about-us">
-        <h2 class="about-us__title title">О нас</h2>
-        <ul class="advantages-list list">
-          <li class="advantages-list__item">
-            <h3 class="advantages-list__title title">Индивидуальные подход</h3>
-            <p class="advantages-list__description">
-              Мы не используем шаблонные методы производства изделий. В сфере
-              протезирования и ортезирования только индивидуальный подход
-              обеспечивает достижение требуемого результата.
-            </p>
-          </li>
-          <li class="advantages-list__item">
-            <h3 class="advantages-list__title title">Опыт</h3>
-            <p class="advantages-list__description">
-              Наши специалисты обладают более чем 20-летним международным опытом
-              и имеют множество благодарных клиентов.
-            </p>
-          </li>
-          <li class="advantages-list__item">
-            <h3 class="advantages-list__title title">Высокое качество</h3>
-            <p class="advantages-list__description">
-              Достигается благодаря использованию в производстве ортопедической
-              продукции высококачественных материалов и комплектующих.
-            </p>
-          </li>
-          <li class="advantages-list__item">
-            <h3 class="advantages-list__title title">Взаимодействие с ФСС</h3>
-            <p class="advantages-list__description">
-              Консультация и сопровождение наших клиентов по вопросам оформления
-              документов в ФСС. Юридическое сопровождение по вопросам
-              компенсации за приобретенные изделия.
-            </p>
-          </li>
-        </ul>
-        <p class="about-us__description">
-          Центр протезирования "Свобода-Орто" — это надежное место, где ваше
-          здоровье всегда на первом месте. Мы гордимся высококвалифицированным
-          персоналом, обладающим многолетним опытом и преданны заботе о
-          клиентах.
-        </p>
-        <p class="about-us__description">
-          Опыт в протезировании более 20 лет позволяет нам предоставлять услуги
-          высочайшего качества в кратчайшие сроки. Мы понимаем, что каждый
-          клиент уникален, поэтому предлагаем индивидуальный подход к подбору
-          оптимальной конструкции.
-        </p>
-        <p class="about-us__description">
-          Мы гарантируем лучшее сочетание цены и качества, чтобы забота о вашем
-          здоровье была доступна каждому.
-        </p>
-      </section>
-      <section class="services">
-        <h2 class="services__title">Услуги</h2>
-        <ul class="services-list list">
-          <li class="services-list__item">
-            <h3 class="services-list__title title">Протез голени</h3>
-            <span class="services-list__description">
-              Протез голени модульный и для купания
-            </span>
-            <span class="services-list__price">от 145 200 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">12 месяцев гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 12 до 36 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">от 7 дней</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-          <li class="services-list__item">
-            <h3 class="services-list__title title">Протез бедра</h3>
-            <span class="services-list__description">
-              Протез бедра модульный и для купания
-            </span>
-            <span class="services-list__price">от 205 700 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">12 месяцев гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 12 до 36 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">от 7 дней</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-          <li class="services-list__item">
-            <h3 class="services-list__title title">
-              Аппарат на нижние конечности
-            </h3>
-            <span class="services-list__description"> Все виды аппаратов </span>
-            <span class="services-list__price">от 46 300 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">12 месяцев гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 12 до 36 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">от 7 дней</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-          <li class="services-list__item">
-            <h3 class="services-list__title title">
-              Тутор на нижние конечности
-            </h3>
-            <span class="services-list__description"> Все виды туторов </span>
-            <span class="services-list__price">от 9 700 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">12 месяцев гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 12 до 36 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates"
-                >от 7 - 14 дней</span
-              >
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-          <li class="services-list__item">
-            <h3 class="services-list__title title">
-              Тутор на верхние конечности
-            </h3>
-            <span class="services-list__description"> Все виды туторов </span>
-            <span class="services-list__price">от 9 400 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">12 месяцев гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 12 до 36 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates"
-                >от 7 - 14 дней</span
-              >
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-          <li class="services-list__item">
-            <h3 class="services-list__title title">Стельки ортопедические</h3>
-            <span class="services-list__description">
-              Стельки ортопедические
-            </span>
-            <span class="services-list__price">от 4 100 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">3 месяца гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 6 до 12 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">от 3 - 5 дней</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-          <li class="services-list__item">
-            <h3 class="services-list__title title">Выездное обслуживание</h3>
-            <span class="services-list__description">
-              Выездное обслуживание
-            </span>
-            <span class="services-list__price">от 7 000 руб</span>
-            <div class="services-list__container">
-              <span class="services-list__warranty">3 месяца гарантия</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                Срок эксплуатации от 6 до 12 месяцев
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">от 3 - 5 дней</span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                При условии наличия необходимых комплектующих
-              </span>
-            </div>
-            <div class="services-list__container">
-              <span class="services-list__production-dates">
-                Высококачественные комплектующие
-              </span>
-              <a class="services-list__tooltip link">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </a>
-              <span class="services-list__popover">
-                ведущих мировых и отечественных производителей
-              </span>
-            </div>
-            <a class="services-list__link link" href="#" target="_blank"
-              >Подробнее</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section class="team">
-        <h2 class="team__title title">Сотрудники центра</h2>
-        <ul class="team-list list">
-          <li class="team-list__item">
-            <!-- Добавить фото сотрудника 1 -->
-            <span class="team-list__name">Вартаванян Евгений Викторович</span>
-            <span class="team-list__position">Генеральный директор</span>
-          </li>
-          <li class="team-list__item">
-            <!-- Добавить фото сотрудника 2 -->
-            <span class="team-list__name">Пирожков Андрей Александрович</span>
-            <span class="team-list__position">Консультант</span>
-          </li>
-          <li class="team-list__item">
-            <!-- Добавить фото сотрудника 3 -->
-            <span class="team-list__name">Латыпов Роман Владимирович</span>
-            <span class="team-list__position">Технолог</span>
-          </li>
-        </ul>
-        <div class="pagination-arrows">
-          <button class="pagination-arrows__prew button" type="button">
-            <span class="visually-hidden">Предыдущее фото</span>
-          </button>
-          <button class="pagination-arrows__next button" type="button">
-            <span class="visually-hidden">Следующее фото</span>
-          </button>
+      <section class="page-main__about-us about-us">
+        <div class="wrapper">
+          <h2 class="about-us__title title">О нас</h2>
+          <ol class="about-us__advantages-list advantages-list list">
+            <li class="advantages-list__item">
+              <span
+                class="advantages-list__icon advantages-list__icon--individual-approach"
+              ></span>
+              <div>
+                <h3 class="advantages-list__title subtitle">
+                  Индивидуальные подход
+                </h3>
+                <p class="advantages-list__description">
+                  Мы создаем изделия исключительно по индивидуальному заказу,
+                  так как шаблонные методы неэффективны <span class="br br--desktop"></span> в протезировании и
+                  ортезировании.
+                </p>
+              </div>
+            </li>
+            <li class="advantages-list__item">
+              <span
+                class="advantages-list__icon advantages-list__icon--quality"
+              ></span>
+              <div>
+                <h3 class="advantages-list__title subtitle">
+                  Высокое качество
+                </h3>
+                <p class="advantages-list__description advantages-list__description--quality">
+                  Достигается за счет применения <span class="br br--desktop"></span> в производстве ортопедической
+                  продукции высококачественных материалов и комплектующих.
+                </p>
+              </div>
+            </li>
+            <li class="advantages-list__item">
+              <span
+                class="advantages-list__icon advantages-list__icon--invalid"
+              ></span>
+              <div>
+                <h3 class="advantages-list__title subtitle">
+                  Взаимодействие с ФСС
+                </h3>
+                <p class="advantages-list__description">
+                  Консультируем и сопровождаем клиентов по оформлению документов
+                  в ФСС и юридическим вопросам компенсации за изделия.
+                </p>
+              </div>
+            </li>
+            <li class="advantages-list__item">
+              <span
+                class="advantages-list__icon advantages-list__icon--experience"
+              ></span>
+              <div>
+                <h3 class="advantages-list__title subtitle">Опыт</h3>
+                <p class="advantages-list__description advantages-list__description--experience">
+                  Наши специалисты имеют более 20 лет международного опыта <span class="br br--desktop"></span> и
+                  множество благодарных клиентов.
+                </p>
+              </div>
+            </li>
+
+          </ol>
+        </div>
+        <div class="about-us__container">
+          <p class="about-us__description">
+            Центр протезирования "Свобода-Орто" — это надежное место, где ваше
+            здоровье всегда на первом месте. <span class="br br--desktop"></span> Мы гордимся высококвалифицированным
+            персоналом, обладающим многолетним опытом, предан заботе о
+            клиентах.
+          </p>
+          <p class="about-us__description">
+            Опыт в протезировании более 20 лет позволяет нам предоставлять
+            услуги высочайшего качества в кратчайшие сроки. <span class="br br--desktop"></span> Мы понимаем, что
+            каждый клиент уникален, поэтому предлагаем индивидуальный подход к
+            подбору оптимальной конструкции.
+          </p>
+          <p class="about-us__description">
+            Мы гарантируем лучшее сочетание цены и качества, чтобы забота о
+            вашем здоровье была доступна каждому.
+          </p>
         </div>
       </section>
-      <section class="products">
-        <h2 class="products__titile title">Наши работы</h2>
-        <ul class="products-list list">
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/1.png"
-              alt="Протез бедра модульный средней уровень активности."
-            />
-          </li>
-          <!-- <li class="products-list__item">
-                <img class="products-list__image image" width="140" height="187" src="img/index/2.png" alt="Протез бедра модульный средней уровень активности.">
-            </li> -->
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/3.png"
-              alt="Аппарат(гибрид ортопротез) двуследный при недоразвитии."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/4.png"
-              alt="Протез бедра модульный средней уровень активности."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/5.png"
-              alt="Опорный тутор на голеностопный сустав из слоистого пластика."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/6.png"
-              alt="Аппарат на всю ногу. С унилатеральной системой шарниров."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/7.png"
-              alt="Тутор на голеностопный сустав(с передним упором из термопласта)."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/8.png"
-              alt="Тутор на голеностопный сустав(с накатом из термопласта)."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/9.png"
-              alt="Протез голени для купания(Арт гильза)."
-            />
-          </li>
-          <!-- <li class="products-list__item">
-                <img class="products-list__image image" width="140" height="187" src="img/index/10.png" alt="Протез голени для купания.">
+
+      <section class="page-main__services services">
+        <div class="wrapper">
+          <h2 class="services__title title">Услуги и цены</h2>
+          <p class="services__description">
+            Мы используем высококачественные комплектующие от ведущих мировых и
+            отечественных производителей!
+          </p>
+          <ul class="services-list list">
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">Протез голени</h3>
+                <span class="services-list__description">
+                  Протез голени модульный и для купания
+                </span>
+              </div>
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 145 200 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">12 месяцев</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 12 до 36 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Изготовление</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 7 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
             </li>
-            <li class="products-list__item">
-                <img class="products-list__image image" width="140" height="187" src="img/index/11.png" alt="Протез голени для купания(Арт гильза).">
-            </li> -->
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/12.png"
-              alt="Тутор на голеностопный сустав."
-            />
-          </li>
-          <li class="products-list__item">
-            <img
-              class="products-list__image image"
-              width="140"
-              height="187"
-              src="img/index/13.png"
-              alt="Протез голени для купания."
-            />
-          </li>
-          <!-- <li class="products-list__item">
-                <img class="products-list__image image" width="140" height="187" src="img/index/14.png" alt="Протез голени для купания.">
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">Протез бедра</h3>
+                <span class="services-list__description">
+                  Протез бедра модульный и для купания
+                </span>
+              </div>
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 205 700 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">12 месяцев</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 12 до 36 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Изготовление</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 7 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
             </li>
-            <li class="products-list__item">
-                <img class="products-list__image image" width="140" height="187" src="img/index/15.png" alt="Протез голени для купания.">
-            </li> -->
-        </ul>
-        <a class="products__link link" href="#">Просмотреть больше</a>
-      </section>
-      <section class="counter">
-        <h2 class="counter__title title">Наши цифры</h2>
-        <div class="counter__container">
-          <div class="counter__completed-projects">
-            <span class="counter__number">598</span>
-            <span class="counter__title">Выполнено заказов</span>
-          </div>
-          <div class="counter__completed-projects">
-            <span class="counter__number">2</span>
-            <span class="counter__title">Выполняемые Гос. Контракты</span>
-          </div>
-          <div class="counter__completed-projects">
-            <span class="counter__number">24</span>
-            <span class="counter__title">Выполнено Гос. Контрактов</span>
-          </div>
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">
+                  Аппарат на нижние конечности
+                </h3>
+              </div>
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 46 300 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">12 месяцев</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 12 до 36 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Изготовление</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 7 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
+            </li>
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">
+                  Тутор на нижние конечности
+                </h3>
+              </div>
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 9 700 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">12 месяцев</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 12 до 36 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Изготовление</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 7 - 14 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
+            </li>
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">
+                  Тутор на верхние конечности
+                </h3>
+              </div>
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 9 400 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">12 месяцев</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 12 до 36 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Изготовление</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 7 - 14 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
+            </li>
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">
+                  Стельки ортопедические
+                </h3>
+              </div>
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 4 100 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">3 месяца</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 6 до 12 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Изготовление</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 3 - 5 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
+            </li>
+            <li class="services-list__item">
+              <div class="services-list__wrapper services-list__wrapper--title">
+                <h3 class="services-list__title subtitle">
+                  Выездное обслуживание
+                </h3>
+              </div>
+
+              <div class="services-list__wrapper">
+                <div class="services-list__container">
+                  <span class="services-list__price">Цена</span>
+                  <span class="services-list__value services-list__value--price"
+                    >от 7 000 руб.</span
+                  >
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__warranty">Гарантия</span>
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">3 месяца</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--warranty"
+                      >
+                        Срок эксплуатации от 6 до 12 месяцев
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="services-list__container">
+                  <span class="services-list__production-dates"
+                    >Исполнение</span
+                  >
+                  <div class="services-list__container-info">
+                    <span class="services-list__value">от 3 - 5 дней</span>
+                    <a class="services-list__tooltip link">
+                      <span class="visually-hidden"
+                        >Посмотреть дополнительную информацию</span
+                      >
+                      <span
+                        class="services-list__popover services-list__popover--production-dates"
+                      >
+                        При условии наличия необходимых комплектующих
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <a class="services-list__link link" href="#" target="_blank"
+                >Подробнее</a
+              >
+            </li>
+          </ul>
         </div>
       </section>
-      <section class="contacts">
-        <h2 class="contacts__title title">Контакты</h2>
-        <ul class="contacts-list list">
-          <li class="contacts-list__item">
-            <p class="contacts-list__title">Адрес:</p>
-            <address class="contacts-list__address">
-              <p class="contacts-list__text">
-                Санкт-Петербург, ул. Шпалерная д. 24А
-              </p>
-            </address>
-          </li>
-          <li class="contacts-list__item">
-            <p class="contacts-list__title">Режим работы:</p>
-            <ul class="contacts-list__schedule-list schedule-list list">
-              <li class="schedule-list__item">пн—пт: с 9:00 до 16:30,</li>
-              <li class="schedule-list__item">сб—вс: выходной</li>
+      <section class="page-main__team team">
+        <div class="wrapper">
+          <h2 class="team__title title">Сотрудники центра</h2>
+          <div class="team__container">
+            <ul class="team-list list">
+              <li class="team-list__item team-list__item--current">
+                <div
+                  class="team-list__container team-list__container--director"
+                >
+                  <!-- Добавить фото сотрудника 1 -->
+                </div>
+                <div>
+                  <span class="team-list__name"
+                    >Вартаванян Евгений Викторович</span
+                  >
+                  <span class="team-list__position">Генеральный директор</span>
+                </div>
+              </li>
+              <li class="team-list__item">
+                <div
+                  class="team-list__container team-list__container--consultant"
+                >
+                  <!-- Добавить фото сотрудника 2 -->
+                </div>
+                <div>
+                  <span class="team-list__name"
+                    >Пирожков Андрей Александрович</span
+                  >
+                  <span class="team-list__position">Консультант</span>
+                </div>
+              </li>
+              <li class="team-list__item">
+                <div
+                  class="team-list__container team-list__container--technologist"
+                >
+                  <!-- Добавить фото сотрудника 3 -->
+                </div>
+                <div>
+                  <span class="team-list__name"
+                    >Латыпов Роман Владимирович</span
+                  >
+                  <span class="team-list__position">Технолог</span>
+                </div>
+              </li>
             </ul>
-          </li>
-          <li class="contacts-list__item">
-            <p class="contacts-list__title">Телефон:</p>
-            <a class="contacts-list__text link" href="tel:+79119299974"
-              >+7 (911) 929-99-74</a
-            >
-          </li>
-          <li class="contacts-list__item">
-            <p class="contacts-list__title">Почта:</p>
-            <a
-              class="contacts-list__text link"
-              href="mailto:libertyorto@gmail.com"
-              >libertyorto@gmail.com</a
-            >
-          </li>
-        </ul>
-        <div class="contacts__map">
+            <div class="pagination-arrows">
+              <button class="pagination-arrows__prew button" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+              </button>
+              <button class="pagination-arrows__next button" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-main__products products">
+        <div class="wrapper">
+          <h2 class="products__titile title">Наши работы</h2>
+          <ul class="products-list list">
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/1.png"
+                alt="Протез бедра модульный средней уровень активности."
+              />
+            </li>
+            <!-- <li class="products-list__item">
+                  <img class="products-list__image image" width="140" height="187" src="img/index/2.png" alt="Протез бедра модульный средней уровень активности.">
+              </li> -->
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/3.png"
+                alt="Аппарат(гибрид ортопротез) двуследный при недоразвитии."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/4.png"
+                alt="Протез бедра модульный средней уровень активности."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/5.png"
+                alt="Опорный тутор на голеностопный сустав из слоистого пластика."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/6.png"
+                alt="Аппарат на всю ногу. С унилатеральной системой шарниров."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/7.png"
+                alt="Тутор на голеностопный сустав(с передним упором из термопласта)."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/8.png"
+                alt="Тутор на голеностопный сустав(с накатом из термопласта)."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/9.png"
+                alt="Протез голени для купания(Арт гильза)."
+              />
+            </li>
+            <!-- <li class="products-list__item">
+                  <img class="products-list__image image" width="140" height="187" src="img/index/10.png" alt="Протез голени для купания.">
+              </li>
+              <li class="products-list__item">
+                  <img class="products-list__image image" width="140" height="187" src="img/index/11.png" alt="Протез голени для купания(Арт гильза).">
+              </li> -->
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/12.png"
+                alt="Тутор на голеностопный сустав."
+              />
+            </li>
+            <li class="products-list__item">
+              <img
+                class="products-list__image image"
+                width="140"
+                height="187"
+                src="img/index/13.png"
+                alt="Протез голени для купания."
+              />
+            </li>
+            <!-- <li class="products-list__item">
+                  <img class="products-list__image image" width="140" height="187" src="img/index/14.png" alt="Протез голени для купания.">
+              </li>
+              <li class="products-list__item">
+                  <img class="products-list__image image" width="140" height="187" src="img/index/15.png" alt="Протез голени для купания.">
+              </li> -->
+          </ul>
+          <a class="products__link link" href="#">Просмотреть больше</a>
+        </div>
+      </section>
+      <section class="page-main__counter counter">
+        <div class="wrapper">
+          <h2 class="counter__title title">Наши цифры</h2>
+          <div class="counter__container">
+            <div class="counter__completed-projects">
+              <span class="counter__number">598</span>
+              <span class="counter__description"
+                >Выполнено <span class="br br--tablet"></span>заказов</span
+              >
+            </div>
+            <div class="counter__completed-projects">
+              <span class="counter__number">2</span>
+              <span class="counter__description"
+                >Выполняемые <span class="br br--tablet"></span> Гос.
+                Контракты</span
+              >
+            </div>
+            <div class="counter__completed-projects">
+              <span class="counter__number">24</span>
+              <span class="counter__description"
+                >Выполнено <span class="br br--tablet"></span> Гос.
+                Контрактов</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-main__contacts contacts">
+        <div class="wrapper">
+          <h2 class="contacts__title title">Контакты</h2>
+          <ul class="contacts__contacts-list contacts-list list">
+            <li class="contacts-list__item">
+              <p class="contacts-list__title">Адрес:</p>
+              <address class="contacts-list__address">
+                <p class="contacts-list__text">
+                  191123, Санкт-Петербург ул. Шпалерная д. 24А, Литера А,
+                  Помещение 1-Н
+                </p>
+              </address>
+            </li>
+            <li class="contacts-list__item">
+              <p class="contacts-list__title">Режим работы:</p>
+              <ul class="contacts-list__schedule-list schedule-list list">
+                <li class="schedule-list__item schedule-list__item--contacts">
+                  пн&nbsp;&mdash;&nbsp;пт: 9:00-16:30,
+                </li>
+                <li class="schedule-list__item schedule-list__item--contacts">
+                  сб&nbsp;&mdash;&nbsp;вс: выходной
+                </li>
+              </ul>
+            </li>
+            <li class="contacts-list__item">
+              <p class="contacts-list__title">Телефон:</p>
+              <a class="contacts-list__text link" href="tel:+79119299974"
+                >+7 (911) 929-99-74</a
+              >
+            </li>
+            <li class="contacts-list__item">
+              <p class="contacts-list__title">Почта:</p>
+              <a
+                class="contacts-list__text link"
+                href="mailto:libertyorto@gmail.com"
+                >libertyorto@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts__location">
           <iframe
+            class="contacts__map"
             src="https://yandex.ru/map-widget/v1/?ll=30.350207%2C59.949351&mode=poi&poi%5Bpoint%5D=30.349901%2C59.949536&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D175791571198&z=19.73"
             width="320"
             height="400"
@@ -754,45 +899,52 @@
       </section>
     </main>
     <footer class="page-body__page-footer page-footer">
-      <a class="page-footer__logo link" href="#logo">
-        <img
-          class="page-footer__logo-image"
-          src="img/logo.png"
-          width="106"
-          height="55"
-          alt="Логотип специализированного центра Свобода-Орто."
-        />
-      </a>
-      <a
-        class="page-footer__social-link link"
-        href="https://vk.com/svobodaorto"
-        target="_blank"
-      >
-        <span class="visually-hidden">Мы в Вконтакте</span>
-        <svg
-          class="page-footer__social-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          version="1.1"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="24"
-          height="24"
-          x="0"
-          y="0"
-          viewBox="0 0 24 24"
-          style="enable-background: new 0 0 512 512"
-          xml:space="preserve"
+      <div class="page-footer__wrapper wrapper">
+        <a class="page-footer__logo link" href="#logo">
+          <img
+            class="page-footer__logo-image"
+            src="img/logo.png"
+            width="106"
+            height="55"
+            alt="Логотип специализированного центра Свобода-Орто."
+          />
+        </a>
+        <a
+          class="page-footer__social-link link"
+          href="https://vk.com/svobodaorto"
+          target="_blank"
         >
-          <g>
-            <path
-              d="M12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015a2.84 2.84 0 0 1 .103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895a.019.019 0 0 0 .002-.008c.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09a64.114 64.114 0 0 1 .007-3.233c.036-1.535.152-3.029-1.441-3.029H9.339c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466H1.594C.596 4.501 0 5.045 0 5.956 0 8.002 4.529 19.5 12.145 19.5zM4.055 6.001c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702C10.372 6.98 9.926 6.37 9.633 6l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241H22.006l-.002.009c-.225 1.05-2.446 4.396-3.189 5.435l-.034.05c-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105C5.8 18 1.668 7.929 1.509 6.004c.055-.005.812-.002 2.546-.003z"
-              fill="#000000"
-              opacity="1"
-              data-original="#000000"
-            ></path>
-          </g>
-        </svg>
-      </a>
-      <p class="page-footer__copyright">© ООО "Свобода-Орто", 2025</p>
+          <span class="visually-hidden">Мы в Вконтакте</span>
+          <span class="page-footer__social-container">
+            <svg
+              class="page-footer__social-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="20"
+              height="20"
+              x="0"
+              y="0"
+              viewBox="0 0 304.36 304.36"
+              style="enable-background: new 0 0 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  d="M261.945 175.576c10.096 9.857 20.752 19.131 29.807 29.982 4 4.822 7.787 9.798 10.684 15.394 4.105 7.955.387 16.709-6.746 17.184l-44.34-.02c-11.436.949-20.559-3.655-28.23-11.474-6.139-6.253-11.824-12.908-17.727-19.372-2.42-2.642-4.953-5.128-7.979-7.093-6.053-3.929-11.307-2.726-14.766 3.587-3.523 6.421-4.322 13.531-4.668 20.687-.475 10.441-3.631 13.186-14.119 13.664-22.414 1.057-43.686-2.334-63.447-13.641-17.422-9.968-30.932-24.04-42.691-39.971-22.895-31.021-40.428-65.108-56.186-100.15C-2.01 76.458.584 72.22 9.295 72.07c14.465-.281 28.928-.261 43.41-.02 5.879.086 9.771 3.458 12.041 9.012 7.826 19.243 17.402 37.551 29.422 54.521 3.201 4.518 6.465 9.036 11.113 12.216 5.142 3.521 9.057 2.354 11.476-3.374 1.535-3.632 2.207-7.544 2.553-11.434 1.146-13.383 1.297-26.743-.713-40.079-1.234-8.323-5.922-13.711-14.227-15.286-4.238-.803-3.607-2.38-1.555-4.799 3.564-4.172 6.916-6.769 13.598-6.769h50.111c7.889 1.557 9.641 5.101 10.721 13.039l.043 55.663c-.086 3.073 1.535 12.192 7.07 14.226 4.43 1.448 7.35-2.096 10.008-4.905 11.998-12.734 20.561-27.783 28.211-43.366 3.395-6.852 6.314-13.968 9.143-21.078 2.096-5.276 5.385-7.872 11.328-7.757l48.229.043c1.43 0 2.877.021 4.262.258 8.127 1.385 10.354 4.881 7.844 12.817-3.955 12.451-11.65 22.827-19.174 33.251-8.043 11.129-16.645 21.877-24.621 33.072-7.328 10.223-6.746 15.376 2.357 24.255zm0 0"
+                  style="fill-rule: evenodd; clip-rule: evenodd"
+                  fill="#559127"
+                  opacity="1"
+                  data-original="#559127"
+                ></path>
+              </g>
+            </svg>
+          </span>
+        </a>
+        <p class="page-footer__copyright">© ООО "Свобода-Орто", 2025</p>
+      </div>
     </footer>
+    <script src="js/script.js"></script>
+    <script src="js/pagination-arrows.js"></script>
   </body>
 </html>

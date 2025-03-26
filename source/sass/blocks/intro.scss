@@ -1,0 +1,82 @@
+.intro {
+  text-align: right;
+  padding: 46px 20px 30px;
+  background: url("../img/index/intro-background4.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: 80%;
+  background-color: $grey-background;
+
+  @media (min-width: $tablet-width) {
+    padding: 66px 40px 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 66px 85px 40px;
+  }
+}
+
+.intro__slogan {
+  max-width: 432px;
+  font-family: "Oswald", "Calibri", "Helvetica", sans-serif;
+  font-size: 26px;
+  color: #242b0a;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 0 0 38px auto;
+  text-shadow: 1px 1px 20px $white;
+
+  @media (min-width: $tablet-width) {
+    max-width: 915px;
+    font-size: 54px;
+    line-height: 60px;
+    margin: 0 0 100px auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+    line-height: 80px;
+    margin: 0 0 135px auto;
+  }
+}
+
+.intro__text {
+  width: 77%;
+  max-width: 218px;
+  font-family: "Oswald", "Calibri", "Helvetica", sans-serif;
+  color: $black;
+  text-transform: uppercase;
+  margin: 0 0 177px auto;
+
+  @media (min-width: $tablet-width) {
+    max-width: 447px;
+    font-size: 18px;
+    line-height: 36px;
+    margin: 0 0 250px auto;
+  }
+  
+  @media (min-width: $desktop-width) {
+    max-width: 581px;
+    font-size: 22px;
+
+  }
+}
+
+.intro__link {
+  display: block;
+  max-width: 292px;
+  font-family: "Arial", "Calibri", "Helvetica", sans-serif;
+  text-align: center;
+  color: $white;
+  background-color: $green;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  margin: 0 auto;
+  border: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    padding: 18px 26px;
+    font-size: 19.5px;
+  }
+}
