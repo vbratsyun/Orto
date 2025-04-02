@@ -2,6 +2,7 @@
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 40px 20px;
   }
 }
 
@@ -22,30 +23,17 @@
   }
 }
 
-.team-list__container {
-  width: 240px;
-  height: 240px;
-  max-width: 500px;
+.team-list__photo {
   margin: 0 auto;
 
-  &--director {
-    background: url("../img/index/photo-director.svg") no-repeat;
-    background-size: cover;
-  }
-
-  &--consultant {
-    background: url("../img/index/photo-consultant.svg") no-repeat;
-    background-size: cover;
-  }
-
-  &--technologist {
-    background: url("../img/index/photo-technologist.svg") no-repeat;
-    background-size: cover;
+  @media (min-width: $tablet-width) {
+    width: 340px;
+    height: 320px;
   }
 }
 
 .team-list__name {
-  font-size: 17px;
+  font-size: 16px;
   color: $green;
 
   @media (min-width: $tablet-width) {

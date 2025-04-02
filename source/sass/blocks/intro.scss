@@ -1,17 +1,22 @@
 .intro {
   text-align: right;
-  padding: 46px 20px 30px;
+  padding: 46px 0 30px;
   background: url("../img/index/intro-background4.jpg") no-repeat;
   background-size: cover;
   background-position-x: 80%;
   background-color: $grey-background;
 
   @media (min-width: $tablet-width) {
-    padding: 66px 40px 40px;
+    padding: 66px 0 40px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 66px 85px 40px;
+    padding: 66px 0 40px;
+    max-height: 683px;
+  }
+
+  @media (min-width: 1660px) {
+    background-position-y: 40%;
   }
 }
 
@@ -51,13 +56,12 @@
     max-width: 447px;
     font-size: 18px;
     line-height: 36px;
-    margin: 0 0 250px auto;
+    margin: 0 0 255px auto;
   }
-  
+
   @media (min-width: $desktop-width) {
     max-width: 581px;
     font-size: 22px;
-
   }
 }
 
@@ -74,6 +78,14 @@
   border: 0;
   cursor: pointer;
   box-sizing: border-box;
+
+  &:hover {
+    background-color: $hover;
+  }
+
+  &:active {
+    background-color: $active;
+  }
 
   @media (min-width: $tablet-width) {
     padding: 18px 26px;

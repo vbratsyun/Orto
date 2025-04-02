@@ -35,6 +35,11 @@
     width: 84%;
     font-size: 16px;
   }
+
+  @media (min-width: $desktop-width) {
+    max-width: 200px;
+    width: 100%;
+  }
 }
 
 .services-list__wrapper {
@@ -79,6 +84,7 @@
 
   &--price {
     font-size: 18px;
+    font-weight: 700;
     color: $title-text;
   }
 
@@ -101,6 +107,7 @@
   position: relative;
   width: 17px;
   height: 17px;
+  cursor: pointer;
 
   &::after {
     content: "";
@@ -159,6 +166,7 @@
   text-transform: uppercase;
   font-weight: 700;
   color: $green;
+  max-width: 110px;
 
   &::after {
     content: "";
@@ -169,10 +177,12 @@
     height: 12px;
     left: 73px;
     background: url("../img/icons/services/icon-arrow.svg") no-repeat;
+    transition: width 5ms;
   }
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
+    max-width: 150px;
 
     &::after {
       top: 7px;
@@ -181,3 +191,20 @@
     }
   }
 }
+
+.services-list__link:hover {
+  &::after {
+    content: "";
+    width: 56px;
+    background: url("../img/icons/services/icon-arrow-hover.svg") no-repeat;
+  }
+}
+
+.services-list__item:has(.services-list__link:hover) {
+  background-color: rgba(172, 156, 68, 0.1);
+}
+
+.services-list__item:has(.services-list__link:active) {
+  background-color: rgba(130, 167, 27, 0.1);
+}
+

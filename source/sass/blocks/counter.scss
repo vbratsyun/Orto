@@ -13,8 +13,11 @@
   gap: 40px;
 
   @media (min-width: $tablet-width) {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    max-width: 863px;
+    justify-content: space-evenly;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
