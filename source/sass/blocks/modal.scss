@@ -81,16 +81,18 @@
   z-index: 10;
 }
 
+/* stylelint-disable-next-line selector-max-id */
 #prev {
   left: 10px;
 }
 
+/* stylelint-disable-next-line selector-max-id */
 #next {
-  right: 10px;  
+  right: 10px;
 }
 
 .modal-nav-btn:hover .modal-arrow {
- fill: $hover;
+  fill: $hover;
 }
 
 .modal-nav-btn:active .modal-arrow {

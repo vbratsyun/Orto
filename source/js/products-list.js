@@ -2,11 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const productsList = document.querySelector('.products-list');
     const loadMoreBtn = document.querySelector('.products__link');
     const allImages = Array.from(document.querySelectorAll('.products-list__item'));
-    
     let visibleImagesCount = 4; // Начальное количество картинок для показа
     let totalImages = allImages.length;
     let imagesLoaded = 4; // Начальное количество показанных картинок
-  
     // Функция для обновления количества отображаемых картинок
     function updateVisibleImagesCount() {
       if (window.innerWidth <= 320) {
@@ -20,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       displayImages();
     }
-  
     // Функция для отображения картинок
     function displayImages() {
       // Показываем изображения в зависимости от видимой позиции
@@ -35,20 +32,16 @@ document.addEventListener("DOMContentLoaded", function () {
         loadMoreBtn.style.display = 'none'; // Если все изображения показаны, скрываем кнопку
       }
     }
-  
     // Обработчик клика по кнопке "Просмотреть больше"
     loadMoreBtn.addEventListener('click', (e) => {
       e.preventDefault();
       imagesLoaded += 4; // Загружаем еще 4 картинки при клике
       displayImages();
     });
-  
     // Слушаем изменения размера экрана
     window.addEventListener('resize', () => {
       updateVisibleImagesCount();
     });
-  
     // Инициализация отображения картинок и их количества при загрузке страницы
     updateVisibleImagesCount();
   });
-  
