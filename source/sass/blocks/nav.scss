@@ -25,8 +25,11 @@
     box-shadow: 0 10px 0 $green, 0 20px 0 $green;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     right: 40px;
+  }
+
+  @media (min-width: $tablet-width) {
     top: -66px;
   }
 
@@ -63,8 +66,11 @@
     transform: rotate(-45deg);
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     right: 40px;
+  }
+
+  @media (min-width: $tablet-width) {
     top: -66px;
   }
 
