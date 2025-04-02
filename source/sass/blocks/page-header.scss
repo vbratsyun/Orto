@@ -47,7 +47,7 @@
   padding: 23px 20px;
   width: min-content;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     padding: 23px 40px;
   }
 
@@ -95,7 +95,7 @@
     bottom: 0;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     padding: 18px 40px;
   }
 

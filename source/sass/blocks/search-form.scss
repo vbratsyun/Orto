@@ -5,7 +5,7 @@
   align-items: center;
   padding: 0 20px;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     padding: 0 40px;
   }
 
@@ -20,7 +20,7 @@
   display: block;
   left: 30px;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     left: 50px;
   }
 
@@ -64,7 +64,7 @@
   cursor: pointer;
   box-sizing: border-box;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     right: 50px;
   }
 }
