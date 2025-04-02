@@ -73,7 +73,8 @@
 
 .services-list__container {
   display: grid;
-  grid-template-columns: 1fr max-content;
+  // grid-template-columns: 1fr max-content;
+  grid-template-columns: 1fr 3.9fr;
   line-height: 2;
   align-items: center;
   font-size: 16px;
