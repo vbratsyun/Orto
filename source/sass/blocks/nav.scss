@@ -67,6 +67,10 @@
     right: 40px;
     top: -66px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .nav--opened .page-header__container--nav {

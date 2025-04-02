@@ -1,23 +1,25 @@
 .advantages-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 30px;
     max-width: 863px;
-    margin: 0 auto 30px;
+    margin: 0 auto 65px;
   }
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 1fr);
     max-width: 1030px;
+    margin: 0 auto 85px;
   }
 }
 
 .advantages-list__item {
+  position: relative;
   display: flex;
   column-gap: 15px;
 
@@ -35,6 +37,7 @@
 
 .advantages-list__description {
   font-size: 12.5px;
+  margin-bottom: 0;
 
   &--quality {
     width: 92%;
@@ -127,5 +130,22 @@
   @media (min-width: $tablet-width) {
     width: 55px;
     height: 55px;
+  }
+}
+
+.advantages-list__number {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Oswald", "Calibri", "Helvetica", sans-serif;
+    font-size: 309px;
+    line-height: 236px;
+    font-weight: 700;
+    color: rgba($color: $green, $alpha: 0.1);
+    z-index: -1;
   }
 }

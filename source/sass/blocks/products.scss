@@ -1,9 +1,9 @@
 .products {
-  padding: 22px 0 43px;
+  padding: 22px 0 0;
   // background-color: $grey-background;
 
   @media (min-width: $tablet-width) {
-    padding: 0 0 63px;
+    padding: 0;
   }
 }
 
@@ -25,6 +25,14 @@
   margin: 0 auto;
   cursor: pointer;
   box-sizing: border-box;
+
+  &:hover {
+    background-color: $hover;
+  }
+
+  &:active {
+    background-color: $active;
+  }
 
   @media (min-width: $tablet-width) {
     padding: 18px 26px;

@@ -1,17 +1,16 @@
 .products-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   margin-bottom: 42px;
   gap: 20px;
 
   @media (min-width: $tablet-width) {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     margin-bottom: 62px;
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     max-width: 1030px;
     margin: 0 auto 62px;
   }
@@ -19,7 +18,12 @@
 
 .products-list__image {
   @media (min-width: $tablet-width) {
-    width: 210px;
+    width: 140px;
+    height: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 240px;
     height: auto;
   }
 }

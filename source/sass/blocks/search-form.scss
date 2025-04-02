@@ -10,7 +10,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 10px;
+    padding: 18px 10px;
     left: 0;
   }
 }
@@ -38,9 +38,9 @@
   font-size: 16px;
   letter-spacing: 1px;
   border: none;
-  padding: 0 65px 0 40px;
+  padding: 0 0 0 40px;
   background-color: transparent;
-
+  box-sizing: border-box;
   @media (min-width: $desktop-width) {
     display: none;
   }
@@ -62,18 +62,40 @@
   background: none;
   cursor: pointer;
   box-sizing: border-box;
-}
 
-.search-form__input:focus + .search-form__button {
-  display: block;
-}
-
-.search-form__input:active + .search-form__button {
-  display: block;
+  @media (min-width: $tablet-width) {
+    right: 50px;
+  }
 }
 
 .search-form__button:hover,
 .search-form__button:focus,
 .search-form__button:active {
   display: block;
+}
+
+.search-form:hover .search-form__icon {
+  fill: $hover;
+  cursor: pointer;
+}
+
+.search-form:hover .search-form__button {
+  color: $hover;
+}
+
+.search-form:active .search-form__icon {
+  fill: $active;
+}
+
+.search-form__input:focus ~ .search-form__button {
+  display: block;
+}
+
+.search-form:active .search-form__button {
+  display: block;
+  color: $active;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }

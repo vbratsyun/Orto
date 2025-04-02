@@ -17,6 +17,11 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1030px;
+    margin: 0 auto;
+  }
 }
 
 .page-footer__logo {
@@ -29,7 +34,20 @@
 
 .page-footer__logo-image {
   display: block;
+  object-fit: cover;
+  width: 115px;
+  height: 55px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 130px;
+    height: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 163px;
+    height: 72px;
+  }
 }
 
 .page-footer__social-link {
@@ -58,7 +76,7 @@
 
     &::after,
     &::before {
-      content: none;;
+      content: none;
     }
   }
 }
@@ -71,6 +89,7 @@
   margin: 0 auto;
   border-radius: 50%;
   border: 2px solid $green;
+
 }
 
 .page-footer__social-icon {
@@ -82,4 +101,21 @@
   //   font-family: "Oswald", "Calibri", "Helvetica", sans-serif;
   font-weight: 700;
   color: $green;
+}
+
+.page-footer__social-link:hover .page-footer__social-container {
+  border: 2px solid $hover;
+}
+
+.page-footer__social-link:hover .page-footer__social-icon {
+  fill: $hover;
+}
+
+.page-footer__social-link:active .page-footer__social-container {
+  border: 2px solid $active;
+  background-color: rgba($color: $white, $alpha: 0.5);
+}
+
+.page-footer__social-link:active .page-footer__social-icon {
+  fill: $active;
 }

@@ -8,6 +8,10 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 40px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 85px;
+  }
 }
 
 .page-main__about-us {
@@ -24,6 +28,10 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 40px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 85px;
+  }
 }
 
 .page-main__team {
@@ -34,6 +42,18 @@
   }
 }
 
+.page-main__products {
+  margin-bottom: 45px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 85px;
+  }
+}
+
 .page-main__counter {
-    margin-bottom: 45px;
+  margin-bottom: 0;
 }
