@@ -1,0 +1,26 @@
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.breadcrumbs-list__item:first-child {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -11px;
+    bottom: 0;
+    margin: auto;
+    width: 8px;
+    height: 8px;
+    background: url("../img/icons/breadcrumbs-icon.svg") no-repeat;
+    background-size: contain;
+  }
+}
+
+.breadcrumbs-list__link {
+  padding: 5px 8px;
+}
