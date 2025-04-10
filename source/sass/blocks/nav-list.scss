@@ -11,7 +11,7 @@
 
 .nav-list__item {
   position: relative;
-  padding: 14px 20px;
+  padding: 19px 20px;
 
   &::before {
     content: "";
@@ -34,7 +34,7 @@
   }
 
   @media (min-width: $mobile-width-only) {
-    padding: 14px 40px;
+    padding: 19px 40px;
   }
 
   @media (min-width: $desktop-width) {
@@ -70,3 +70,9 @@
     padding: 18px 10.8px;
   }
 }
+
+// Для широкоформатной картинки
+// .nav-list__item {
+//   position: relative;
+//   padding: 14px 20px;
+// }
