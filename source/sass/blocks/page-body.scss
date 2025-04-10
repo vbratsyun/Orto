@@ -6,8 +6,14 @@
   background-color: $white;
 }
 
+.page-body__page-header {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
+}
+
 .page-body__up-button {
-  @media (min-width: $tablet-width) {
+  @media (min-width: $mobile-width-only) {
     display: none;
     position: fixed;
     z-index: 2;
