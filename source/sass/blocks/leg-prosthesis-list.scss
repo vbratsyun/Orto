@@ -1,0 +1,76 @@
+.leg-prosthesis-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.leg-prosthesis-list__container {
+  display: flex;
+  justify-content: space-between;
+
+  &--image {
+    justify-content: center;
+  }
+}
+
+.leg-prosthesis-list__text {
+  color: $main-color;
+  margin-bottom: 0;
+}
+
+.leg-prosthesis-list__button {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 52px;
+  width: 100%;
+  font-weight: 700;
+  text-align: left;
+  color: $title-text;
+  margin: 0 0 0 auto;
+  padding: 10px 0;
+  border: 0;
+  //   border-radius: 2px;
+  //   outline: 2px solid transparent;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.leg-prosthesis-list__value {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: $title-text;;
+  }
+
+  &::before {
+    width: 13px;
+    height: 1px;
+  }
+
+  &::after {
+    width: 1px;
+    height: 13px;
+    right: 6px;
+  }
+}
+
+.leg-prosthesis-list__description {
+    display: none;
+    margin: 0;
+}
+
+.leg-prosthesis-list__price-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: $title-text;;
+}

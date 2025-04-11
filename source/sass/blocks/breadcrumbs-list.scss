@@ -1,7 +1,7 @@
 .breadcrumbs-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
 }
 
 .breadcrumbs-list__item:first-child {
@@ -11,16 +11,21 @@
     content: "";
     position: absolute;
     top: 0;
-    right: -11px;
+    right: -15px;
     bottom: 0;
     margin: auto;
-    width: 8px;
-    height: 8px;
-    background: url("../img/icons/breadcrumbs-icon.svg") no-repeat;
-    background-size: contain;
+    width: 15px;
+    height: 1px;
+    background-color: $grey-text;
   }
 }
 
 .breadcrumbs-list__link {
+  font-size: 12px;
+  color: $grey-text;
   padding: 5px 8px;
+
+  &--current {
+    color: $title-text;
+  }
 }
