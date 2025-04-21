@@ -83,6 +83,7 @@
 
 .leg-prosthesis-list__image {
   object-fit: cover;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     height: 193px;
