@@ -50,8 +50,6 @@
   }
 
   @media (min-width: $tablet-width) {
-    right: 40px;
-
     &::before,
     &::after {
       top: 13px;
@@ -87,19 +85,11 @@
 /* stylelint-disable-next-line selector-max-id */
 #prev {
   left: 10px;
-
-  @media (min-width: $tablet-width) {
-    left: 40px;
-  }
 }
 
 /* stylelint-disable-next-line selector-max-id */
 #next {
   right: 10px;
-
-  @media (min-width: $tablet-width) {
-    right: 40px;
-  }
 }
 
 .modal-nav-btn:hover .modal-arrow {
